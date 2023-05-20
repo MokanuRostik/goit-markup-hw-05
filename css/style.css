@@ -262,8 +262,6 @@ body {
 .work {
   padding-bottom: 120px;
 }
-.list-work {
-}
 
 .work-title {
   margin-bottom: 72px;
@@ -789,4 +787,28 @@ body {
 
 .no-scroll {
   overflow: hidden;
+}
+.header-navigation,
+.header-list-nav,
+.list-header,
+.link-header {
+  position: relative;
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+}
+.header-navigation .header-list-nav .list-header .link-header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+.header-navigation .header-list-nav .list-header .link-header:hover::after,
+.header-navigation .header-list-nav .list-header .link-header:focus::after {
+  transform: scaleX(1);
 }
