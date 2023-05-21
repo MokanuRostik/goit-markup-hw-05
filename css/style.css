@@ -731,12 +731,6 @@ body {
 
   color: #434455;
 }
-.overlay {
-  transition: transform 250ms linear,
-    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .overlay {
   position: absolute;
@@ -748,7 +742,7 @@ body {
   height: 100%;
   background: #4d5ae5;
   mix-blend-mode: normal;
-
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #f4f4fd;
   padding: 40px 32px;
   overflow: auto;
@@ -756,8 +750,15 @@ body {
   transition: transform 250ms linear;
   letter-spacing: 0.02em;
   line-height: 1.5;
-  transform: translateY(100%);
+
   transition-property: all;
+  transform: translateY(100%);
+}
+.overlay {
+  transition: transform 250ms linear,
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .links-partfolio:hover .overlay,
@@ -896,4 +897,7 @@ body {
 }
 .link-adr-style {
   color: #404bbf;
+}
+.overlay-pfr {
+  transform: translateY(100%);
 }
