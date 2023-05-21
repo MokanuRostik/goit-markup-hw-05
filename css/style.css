@@ -747,8 +747,8 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.links-partfolio:hover.overlay,
-.links-partfolio:focus.overlay {
+.links-partfolio:hover .overlay,
+.links-partfolio:focus .overlay {
   transform: translateY(0%);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
