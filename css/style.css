@@ -735,6 +735,8 @@ body {
 .overlay {
   position: absolute;
   top: 0;
+  left: 0;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -750,8 +752,6 @@ body {
 .links-partfolio:hover .overlay,
 .links-partfolio:focus .overlay {
   transform: translateY(0%);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .images-container {
   position: relative;
