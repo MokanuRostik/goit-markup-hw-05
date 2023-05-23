@@ -883,7 +883,7 @@ body {
 
 .underline {
   position: absolute;
-  bottom: 1px; /* Выберите значение отступа, которое вам нравится */
+  bottom: 2px; /* Выберите значение отступа, которое вам нравится */
   left: 0;
   width: 100%;
   height: 4px;
