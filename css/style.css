@@ -300,6 +300,7 @@ body {
 
 .team {
   background-color: #f4f4fd;
+  margin-top: 120px;
 }
 
 .wrapper {
@@ -392,7 +393,7 @@ body {
 
   text-align: center;
   letter-spacing: 0.02em;
-  padding-top: 72px;
+  padding-top: 120px;
   margin-bottom: 72px;
   text-transform: capitalize;
 
